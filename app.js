@@ -1,6 +1,22 @@
-const multiply = document.querySelector("multiply")
-const devide = document.querySelector("devide")
-const minus = document.querySelector("minus")
-const plus = document.querySelector("plus")
+//functions for click events
+function multiply() {
+  const showMultiply = document.querySelector("form")
+  //let node = document.createElement("p")
+  let textNode = document.createTextNode("*")
+  showMultiply.appendChild(textNode)
+  //showMultiply.createElement("p")
 
-console.log(multiply)
+  console.log("*")
+}
+
+function devide() {
+  console.log("/")
+}
+
+function minus() {
+  console.log("-")
+}
+
+function plus() {
+  console.log("+")
+}
